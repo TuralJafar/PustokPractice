@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tural\\source\\repos\\PustokPractika\\PustokPractika\\PustokPractika.csproj": {}
+    "C:\\Users\\ClassTime\\source\\repos\\PustokPractice\\PustokPractika\\PustokPractika.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tural\\source\\repos\\PustokPractika\\PustokPractika\\PustokPractika.csproj": {
+    "C:\\Users\\ClassTime\\source\\repos\\PustokPractice\\PustokPractika\\PustokPractika.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tural\\source\\repos\\PustokPractika\\PustokPractika\\PustokPractika.csproj",
+        "projectUniqueName": "C:\\Users\\ClassTime\\source\\repos\\PustokPractice\\PustokPractika\\PustokPractika.csproj",
         "projectName": "PustokPractika",
-        "projectPath": "C:\\Users\\tural\\source\\repos\\PustokPractika\\PustokPractika\\PustokPractika.csproj",
-        "packagesPath": "C:\\Users\\tural\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tural\\source\\repos\\PustokPractika\\PustokPractika\\obj\\",
+        "projectPath": "C:\\Users\\ClassTime\\source\\repos\\PustokPractice\\PustokPractika\\PustokPractika.csproj",
+        "packagesPath": "C:\\Users\\ClassTime\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ClassTime\\source\\repos\\PustokPractice\\PustokPractika\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tural\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ClassTime\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,20 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.13, )"
@@ -64,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
